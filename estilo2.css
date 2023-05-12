@@ -1,0 +1,26 @@
+
+  body{background-image:url("cina.jpg");}
+  
+  h1{text-align:left;
+    color: #4682B4;
+    }
+
+ h2{text-align:left;
+    color: palevioletred;
+     font-family: arial,verdana;
+   }
+
+   h3{text-align:left;
+    color: mediumslateblue;
+    font-family: arial,verdana;
+   }
+
+   h4{text-align:left;
+    color: #1E90FF;
+    font-family: arial,verdana;
+   }
+
+   h5{text-align:left;
+    color: #4169E1;
+    font-family: arial,verdana;
+   }
