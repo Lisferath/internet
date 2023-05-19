@@ -1,0 +1,23 @@
+
+.cabecalho { 
+    width:600px;
+padding:10px ;
+background-color: hotpink;
+font-size: 20px;
+margin: 2px;}
+
+.corpo1 {width:600px;
+padding:10px ;
+background-color:royalblue;
+font-size: 20px;
+text-align:center;
+display:flex;
+}
+.rodape {width:600px;
+padding:10px ;
+background-color:aqua;
+font-size:10px;
+text-align:center;
+color:limegreen;
+}
+
