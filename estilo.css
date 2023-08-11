@@ -1,122 +1,34 @@
 html{
-    margin: 0;
-    padding: 0;
-    height: 10px;
-}
+margin:0;
+padding:0;
+height:100%;
 
-Body{
-
-    Font-family:Arial,sans-serif;
-     Margin: 0;
-     Padding: 0;
-     background-color: black;
-}
-
-Header{
-     Background-color:Grey;
-     Text-align:center;
-      Padding:25px;
-      Color:pink;
-}
-
-Nav ul{
-    list-style-type :nome;
-    Text-align:center;
-     Margin:0;
-     Padding:0;
-}
-
-Nav li{
-     Display :inline;
-     Margin-right:11xp;
-     }
-
-Nav a{
-     Color:red;
-     Text-decoration:nome;
-}
-
-.container input {
-     Width:9%;
-     Padding:9px;
-     Margin-bottom:9px;
-     Border:1px solid 000;
-     Border-radius:4px;
-    Box-sizing:inherit;
-}
-
-.container button{
-     Width:9%;
-     Padding:9px;
-     Background-color:orange;
-     Color:rgb(255, 192, 206);
-     Border:0cqmin;
-     Border-radius:3px;
-     Cursor:pointer;
-} 
-
-main{
-    padding: 220px;
-    text-align: center;
-    font-family:Arial,sans-serif
-}
-
-h1{
-    font-size: 23px;
-    font-weight: bold;
-    font-language-override:normal ;
-    font-family: sans-serif;
-}
-
-h2{
-    font-size: 23px;
-    font-weight: lighter;
-    font-language-override:normal ;
-    font-family: sans-serif;
-}
-
-footer{
-    background-color: pink;
-    padding: 5px;
-    text-align: center;
-    color: blue;
-}
-
-.produto-container{
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.produto{
-    background-color: darkgreen;
-    border-radius: 21px;
-    display: inline-block;
-    padding: 30px;
-    margin: 20px 21px;
-}
-
-.container{
-    margin: 30px auto 31px;
 }
 
 
+body {
+margin:0;
+padding: 0;
+height:100%;
+background-color:lightblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
 
+input {
+       background-color:rgb(125, 173, 189)
 
+}
+ .toji {
+width: 300px;
 
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ form{
+display:flex;
+flex-direction: column;
+justify-content: start;
+width: 450px;
+margin-top: 80px;
+border:2px solid blue;
+ }

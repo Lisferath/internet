@@ -1,10 +1,13 @@
+
 <html>
-<head> <title> Formularia </title></head>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+<title> Formulario </title></head>
 <body>
-<form method="post"action=" ">
+<form method="post"action=" "> <pre>
 Nome <input type="text" name="Nome" size=40 maxlength="45" place holder="digite nome completo">
 Data nascimento<input type="date" nome="data">
-Email<input type="email" name="email" size=50>
+Email<input type="email" name="email" size=40>
 Telefone<input  type="tel" name="telefone">
 
 cidade:<select name="cidade">
@@ -13,8 +16,25 @@ cidade:<select name="cidade">
 <option>Foz de Iguaçu </option>
 </select>
  
-Carso:<input type="checkbox" name="curso" value="adm"> Administração>
+Carso:
+<input type="checkbox" name="curso" value="adm"> Administração
+<input type="checkbox" name="curso" value="info"> informatica
+<input type="checkbox" name="curso" value="ingles"> ingles
 
-</form>  
+
+Periodo:<input type="radio" value="Matutino" name="periodo">
+Matutino<input type="radio" value="Matutino" name="periodo">
+Vespertino<input type="radio" value="Vespertino" name="periodo">
+Noturno<input type="radio" value="Noturno" name="periodo">
+
+<textarea rows="5" cols="30" name="descricao">
+
+    Observação
+</textarea>
+
+<input type="submit" name="enviar" value="gravar">
+<input type="reset" name="apagar" value="deletar">
+<a href="https://www.google.com/search?q=toji+icon&tbm=isch&ved=2ahUKEwjkpPvwntWAAxVCuZUCHfebAUcQ2-cCegQIABAA&oq=toji+icon&gs_lcp=CgNpbWcQAzINCAAQigUQsQMQgwEQQzIFCAAQgAQyBAgAEB4yBAgAEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAIEB46BwgAEIoFEEM6CAgAEIAEELEDOgsIABCABBCxAxCDAToECAAQAzoKCAAQigUQsQMQQ1C5CljKJmCyKWgAcAB4AIABcYgBowiSAQMxLjmYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=p37WZKS1PMLy1sQP97eGuAQ&bih=947&biw=1920&client=firefox-b-d#imgrc=mcqKZBssH7oWOM"><img class="toji" src="toji.jpg" </a>
+</form> 
 </body>
 </html>
